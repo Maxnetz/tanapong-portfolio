@@ -4,10 +4,12 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import node from "../assets/node.png"
+import node from "../assets/node.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import python from "../assets/python.png";
+import typescript from "../assets/typescript.png";
+import java from "../assets/java.png";
 
 const Skills = () => {
     const techs = [
@@ -27,6 +29,18 @@ const Skills = () => {
             id: 3,
             src: javascript,
             title: "JavaScript",
+            style: "shadow-gray-400",
+        },
+        {
+            id: 8,
+            src: typescript,
+            title: "Typescript",
+            style: "shadow-gray-400",
+        },
+        {
+            id: 9,
+            src: java,
+            title: "java",
             style: "shadow-gray-400",
         },
         {
